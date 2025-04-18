@@ -133,7 +133,7 @@ logo =f"""{A}
  \x1b[38;5;83m  _𝗞𝗜𝗡𝗚 of 𝗭𝗘𝗛𝗘𝗡__𝗔𝗙__√
 \x1b[38;5;50m  𝗕𝗘𝗦𝗧 𝗖𝗟𝗢𝗡𝗡𝗜𝗡𝗚...
 \33[1;96m √ 100% 𝗢𝗞 -𝗜𝗗_
-                          {G4}V{G3}/0.3
+                          {G4}V{G3}/0.4
 {A}──────────────────────────────────────────────────
 {G1}[{A}={G1}]{G1} OWNER     {A}:{G1} 𝗭𝗘𝗛𝗘𝗡-𝗔𝗙
 {G1}[{A}={G2}]{G2} FACEBOOK  {A}:{G2} 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞
@@ -156,7 +156,7 @@ def zehen():
 	b=str(os.getlogin())
 	y="".join(a+b)
 	key=f"ZEHEN_{y}_PAID"
-	row=httpx.get("https://github.com/SIHAB-404/Approval/blob/main/Approval.txt").text
+	row=httpx.get("https://github.com/ZEHEN-AF/Approval/blob/main/Approval.txt").text
 	if key in row:
 		menu()
 	else:
@@ -171,7 +171,7 @@ def zehen():
 		   os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   ZEHEN,   AF,    Please,   Send,   Your,   Key,"')
 		   print("\033[1;37m┏━➤[\033[1;32m7]💝 \033[1;37mYOUR KEY : "+key)		   		   
 		   sm=input("\033[1;33m┗━➤[\033[1;33m8]🤎\033[1;33mPress Enter To Send Key")
-		   tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+key);os.system('am start https://wa.me/+8801752505045?text='+tks),approval()      	   
+		   tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+key);os.system('am start https://wa.me/+8801854334375?text='+tks),approval()      	   
 		   sys.exit()
 #__________________[ MENU ]__________________#
 def menu():   
